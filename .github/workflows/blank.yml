@@ -23,5 +23,5 @@ jobs:
           role-to-assume: arn:aws:iam::400632018843:role/sts-lab-2-target
           role-session-name: OIDCSession
  
-      - run: aws iam get-policy-version --policy-arn arn:aws:iam::***:policy/sts_lab_2_target --version-id v1
+      - run: aws iam get-policy-version --policy-arn arn:aws:iam::400632018843:policy/sts_lab_2_target --version-id v1
         shell: bash
